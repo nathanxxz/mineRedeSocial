@@ -16,7 +16,7 @@ header {
     align-items: center;
     padding: 50px ;
     width: 100%;
-    background-image:url(imagens/bob\ bolhas.jpg); 
+    background-image:url(Media/bob\ bolhas.jpg); 
     top: 0;
     height: 90px;
     z-index: 1000; 
@@ -72,7 +72,7 @@ main {
     width: 600px; 
     height: 500px; ;
     left: 32%;
-    background-image: url(imagens/postfundo.png);
+    background-image: url(Media/postfundo.png);
     background-repeat: no-repeat;
     background-size: cover;
     position:absolute;
@@ -80,7 +80,7 @@ main {
 .floresFendaBikini{
     width: 100%;
     height: 100px; 
-    background-image: url(imagens/floresFendaBikini.png);
+    background-image: url(Media/floresFendaBikini.png);
     background-repeat: repeat-x;
     background-size: contain;
     margin-top: 100px;
