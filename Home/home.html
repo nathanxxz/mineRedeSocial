@@ -1,78 +1,77 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Mini Rede Social</title>
   <link rel="stylesheet" href="home.css">
 </head>
+
 <body>
-    <header>
-        <img src="Media/fendaB.png" alt="fendaB" class="logo-fendaB">
-        <img src="Media/bob.png" alt="bob" class="logo-bob">
-        <div class="menu">
-            <nav>
-                <a href="">Inicio</a>
-                <a href="">Contato</a>
-                <a href="">Stars.B</a>
-                <button>
-                  <a href="/Login/index.html">Sair</a>
-                </button>
-                
-            </nav>
-        </div>
-    </header>
-    
-    <main>
-      <div class="patrocinador">
-        <img src="Media/criePost.png" alt="">
+  <header>
+    <img src="Media/fendaB.png" alt="Logo da Fenda do Bikini" class="logo-fendaB">
+    <img src="Media/bob.png" alt="Bob Esponja" class="logo-bob">
+
+    <nav class="menu">
+      <a href="#">Início</a>
+      <a href="#">Contato</a>
+      <a href="#">Stars.B</a>
+      <a href="/Login/index.html" class="sair-btn">Sair</a>
+    </nav>
+  </header>
+
+  <main>
+    <div class="patrocinador">
+      <img src="Media/criePost.png" alt="Crie seu post">
+    </div>
+
+    <div class="form-container">
+      <form>
+        <input type="text" class="input1" name="titulo" placeholder="Título da postagem" required>
+        <textarea class="input2" name="conteudo" placeholder="Digite seu post..." required></textarea>
+        <label for="arquivo">Escolher Arquivo:</label>
+        <input type="file" class="input3" name="midia" id="arquivo" accept="image/*, .pdf">
+        <button type="submit" class="Publicar">Publicar</button>
+      </form>
+    </div>
+
+    <div class="floresFendaBikini"></div>
+
+    <section class="feed">
+      <div class="post">
+        <h2>@Patrick.star</h2>
+        <img src="Media/patrickBebe.jpg" alt="Patrick bebê">
+        <p>Quando eu era bebê, parecia uma menina, slk kkkkk.</p>
+        <button>Curtir</button>
+        <button>Compartilhar</button>
       </div>
 
-        <div class="form-container">
-            <form action="/postar" method="post" enctype="multipart/form-data">
-                <input type="text" class="input1" name="titulo" placeholder="Título da postagem">
-                <textarea class="input2" name="conteudo" placeholder="Digite seu post..."></textarea>
-                <label for="arquivo">Escolher Arquivo</label>
-                <input type="file"class="input3" name="midia" id="arquivo" accept="image/*, .pdf">
-                <button type="submit" class="Publicar">Publicar</button>
-            </form>   
-        </div>
+      <div class="post">
+        <h2>@Bob:)</h2>
+        <img src="Media/cacaAguasVivas.jpg" alt="Bob caçando águas-vivas">
+        <p>Amei esse Ano Novo com as águas-vivas! #Vem2025</p>
+        <button>Curtir</button>
+        <button>Compartilhar</button>
+      </div>
 
-        <div class="floresFendaBikini"></div>
+      <div class="post">
+        <h2>@Lula_molusco</h2>
+        <img src="Media/lulamolusco.jpg" alt="Lula Molusco formado">
+        <p>Acabei de me formar em Ciência da Computação! #Livre #Paz #VouProCéu</p>
+        <button>Curtir</button>
+        <button>Compartilhar</button>
+      </div>
 
-        <div class="feed">
-            <div class="post">
-              <h2>@Patrick.star</h2>
-              <img src="Media/patrickBebe.jpg" alt="Imagem da postagem 1">
-              <p>Quando eu era bebê, parecia uma menina, slk kkkkk.</p>
-              <button>Curtir</button>
-              <button>Compartilhar</button>
-            </div>
-          
-            <div class="post">
-              <h2>@Bob:)</h2>
-              <img src="Media/cacaAguasVivas.jpg" alt="Imagem da postagem 2">
-              <p>Amei esse Ano Novo com as águas-vivas! #Vem2025</p>
-              <button>Curtir</button>
-              <button>Compartilhar</button>
-            </div>
-          
-            <div class="post">
-              <h2>@Lula_molusco</h2> 
-              <img src="Media/lulamolusco.jpg" alt="Imagem da postagem 3">
-              <p>Acabei de me formar em Ciência da Computação! #Livre #Paz #VouProCéu</p>
-              <button>Curtir</button>
-              <button>Compartilhar</button>
-            </div>
-          
-            <div class="post">
-              <h2>@Sandy80</h2>
-              <img src="Media/sandy.jpg"Imagem da postagem 4">
-              <p>S de sheipada pae! tome!</p>
-              <button>Curtir</button>
-              <button>Compartilhar</button>
-            </div>
-          </div>
-    </main>
+      <div class="post">
+        <h2>@Sandy80</h2>
+        <img src="Media/sandy.jpg" alt="Sandy com óculos escuros">
+        <p>S de sheipada pae! tome!</p>
+        <button>Curtir</button>
+        <button>Compartilhar</button>
+      </div>
+    </section>
+  </main>
 </body>
+
 </html>

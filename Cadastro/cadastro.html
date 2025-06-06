@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -13,27 +14,28 @@
     <source src="WhatsApp Video 2025-04-07 at 14.28.42.mp4" type="video/mp4" />
   </video>
 
-  <form>
+  <form class="form">
     <img src="image-removebg-preview (1).png" alt="">
 
     <div class="input-div">
 
       <label for="nome">N O M E:</label>
-      <input type="text" name="nome" placeholder="Digite seu nome" required />
+      <input type="text" id="nome" name="nome" placeholder="nome" />
       <label for="Email">E M A I L:</label>
-      <input type="email" name="email" placeholder="Digite seu e-mail" required />
+      <input type="email" id="email" name="email" placeholder="email" />
       <label for="password">S E N H A :</label>
-      <input type="password" name="password" placeholder="Digite sua senha" required minlength="6" maxlength="10" />
-    
+      <input type="password" id="password" name="password" placeholder="senha" />
+
     </div>
 
     <button type="submit" class="button-submit">
-      <a href="/Login/index.html">Cadastrar</a>
+      Cadastrar
+      <a href="/Home/home.html">Entrar</a>
     </button>
     <a href="/Login/index.html" target="_blank">Já se cadastrou? Faça login</a>
 
-
   </form>
-
 </body>
+<script src="cadastro.js"></script>
+
 </html>
